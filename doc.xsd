@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns="hyper://16fb14aa962e3f46261ee2e7cb1c7c785ed466e7b74ed1c3a1dd7195244acf94"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<!-- Document -->
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:attribute name="title" type="xs:string"/>
+			<xs:sequence>
+				<xs:element ref="article" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Article -->
+	<xs:element name="article">
+		<xs:complexType>
+			<xs:attribute name="title" type="xs:string"/>
+			<xs:sequence>
+				<xs:element ref="section" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Section -->
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:attribute name="title" type="xs:string"/>
+			<xs:sequence>
+				<xs:element ref="paragraph" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Paragraph -->
+	<xs:element name="paragraph" type="xs:string"/>
+</xs:schema>
