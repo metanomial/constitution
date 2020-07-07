@@ -16,7 +16,6 @@
 				<xsl:attribute name="lang">
 					<xsl:value-of select="@lang"/>
 				</xsl:attribute>
-				<meta charset="utf-8"/>
 				<meta name="viewport" content="width = device-width, initial-scale = 1"/>
 				<title><xsl:value-of select="heading"/></title>
 				<link rel="stylesheet" href="main.css"/>
