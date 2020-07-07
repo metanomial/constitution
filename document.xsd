@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Document division -->
+	<xs:complexType name="division">
+		<xs:sequence>
+			<xs:element name="heading" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Document -->
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="xs:string"/>
+				<xs:element ref="navigation" minOccurs="0"/>
+				<xs:element ref="article" maxOccurs="unbounded"/>
+				<xs:element ref="eschatocol" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="lang" type="xs:language"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Navigation -->
+	<xs:element name="navigation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="link" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Link -->
+	<xs:element name="link">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="href" type="xs:anyURI"/>
+					<xs:attribute name="lang" type="xs:language"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Article -->
+	<xs:element name="article">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="xs:string" minOccurs="0"/>
+				<xs:element ref="section" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Section -->
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="xs:string" minOccurs="0"/>
+				<xs:element name="paragraph" type="xs:string" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Eschatocol -->
+	<xs:element name="eschatocol">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="xs:string" minOccurs="0"/>
+				<xs:element ref="section" maxOccurs="unbounded"/>
+				<xs:element ref="party" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Party -->
+	<xs:element name="party">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" minOccurs="0" type="xs:string"/>
+				<xs:element name="member" type="xs:string" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

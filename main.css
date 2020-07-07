@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background-color: snow;
+}
+
+body > nav {
+	padding: 0.4rem;
+	background-color: #F3EEEE;
+}
+
+body > nav > a {
+	display: inline-block;
+	margin: 0 0.4rem;
+}
+
+body > main {
+	padding: 1.8rem;
+	margin: 0 auto 4rem;
+	max-width: 60rem;
+}
+
+h1 {
+	margin: 1.8rem 0 1.4rem;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	margin: 1.2rem 0 0.8rem;
+}
+
+h3 {
+	margin: 1rem 0 0.6rem;
+}
+
+p {
+	text-indent: 2ch;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+hr {
+	margin: 1.2rem 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 .fragment-hyperlink, h3 .fragment-hyperlink {
+	float: left;
+	margin-left: -1.5ch;
+	padding-right: 0.5ch;
+	visibility: hidden;
+}
+
+h2:hover .fragment-hyperlink, h3:hover .fragment-hyperlink {
+	visibility: visible;
+}
+
+.fragment-anchor {
+	visibility: hidden;
+}
+
+.signatures {
+	margin: 1.2rem;
+	columns: 3;
+}
+
+@media (max-width: 45rem) {
+	.signatures {
+		columns: 2;
+	}
+}
+
+@media (max-width: 30rem) {
+	.signatures {
+		columns: 1;
+	}
+}
+
+div.party {
+	break-inside: avoid;
+	margin-bottom: 1rem;
+}
+
+div.party-name {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 0.4rem;
+}
+
+div.party-member {
+	margin-left: 1ch;
+}
