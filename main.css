@@ -10,8 +10,11 @@ body {
 }
 
 body > nav {
+	position: fixed;
+	width: 100%;
 	padding: 0.4rem;
 	background-color: #F3EEEE;
+	border-bottom: 2px solid #EBE5E5;
 }
 
 body > nav > a {
@@ -20,8 +23,8 @@ body > nav > a {
 }
 
 body > main {
-	padding: 1.8rem;
-	margin: 0 auto 4rem;
+	padding: 2rem 1.8rem;
+	margin: 0 auto;
 	max-width: 60rem;
 }
 
