@@ -16,6 +16,7 @@
 				<xs:element ref="navigation" minOccurs="0"/>
 				<xs:element ref="article" maxOccurs="unbounded"/>
 				<xs:element ref="eschatocol" minOccurs="0"/>
+				<xs:element ref="copyright"/>
 			</xs:sequence>
 			<xs:attribute name="lang" type="xs:language"/>
 		</xs:complexType>
@@ -57,7 +58,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="heading" type="xs:string" minOccurs="0"/>
-				<xs:element name="paragraph" type="xs:string" maxOccurs="unbounded"/>
+				<xs:element ref="paragraph" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -80,6 +81,24 @@
 				<xs:element name="name" minOccurs="0" type="xs:string"/>
 				<xs:element name="member" type="xs:string" maxOccurs="unbounded"/>
 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Copyright -->
+	<xs:element name="copyright">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="paragraph" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Paragraph -->
+	<xs:element name="paragraph">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="link" maxOccurs="unbounded"/>
+			</xs:choice>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>

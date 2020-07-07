@@ -27,6 +27,7 @@
 					<h1><xsl:value-of select="heading"/></h1>
 					<xsl:apply-templates select="article"/>
 					<xsl:apply-templates select="eschatocol"/>
+					<xsl:apply-templates select="copyright"/>
 				</main>
 			</body>
 		</html>
@@ -39,7 +40,7 @@
 		</nav>
 	</xsl:template>
 
-	<!-- Navigation link -->
+	<!-- Link -->
 	<xsl:template match="link">
 		<a>
 			<xsl:attribute name="href">
@@ -100,7 +101,7 @@
 
 	<!-- Paragraph -->
 	<xsl:template match="paragraph">
-		<p><xsl:value-of select="."/></p>
+		<p><xsl:apply-templates select="text() | *"/></p>
 	</xsl:template>
 
 	<!-- Eschatocol -->
@@ -113,6 +114,7 @@
 		<div class="signatures">
 			<xsl:apply-templates select="party"/>
 		</div>
+		<hr/>
 	</xsl:template>
 
 	<!-- Party -->
@@ -128,7 +130,14 @@
 		<div class="party-name"><xsl:value-of select="."/></div>
 	</xsl:template>
 
+	<!-- Party member -->
 	<xsl:template match="member">
 		<div class="party-member"><xsl:value-of select="."/></div>
+	</xsl:template>
+
+	<!-- Copyright -->
+	<xsl:template match="copyright">
+		<a id="copyright" class="fragment-anchor"></a>
+		<xsl:apply-templates select="paragraph"/>
 	</xsl:template>
 </xsl:stylesheet>

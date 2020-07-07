@@ -23,7 +23,7 @@ body > nav > a {
 }
 
 body > main {
-	padding: 2rem 1.8rem;
+	padding: 2rem 1.8rem 4rem;
 	margin: 0 auto;
 	max-width: 60rem;
 }

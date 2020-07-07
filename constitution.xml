@@ -273,4 +273,8 @@
 			<member>Gouv Morris</member>
 		</party>
 	</eschatocol>
+	<copyright>
+		<paragraph>The contents of this page are public domain.</paragraph>
+		<paragraph>The associated XML and XSLT are ©2020 Benjamin Herman, for use under the <link href="license.txt">MIT License</link>.</paragraph>
+	</copyright>
 </document>
