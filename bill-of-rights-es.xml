@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="document.xsl"?>
+<document
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="document.xsd"
+	lang="en">
+	<heading>Carta de Derechos</heading>
+	<navigation>
+		<link href="document.xsd">Esquema</link>
+		<link href="index-es.html">Índice</link>
+		<link href="bill-of-rights.xml" lang="en">English</link>
+	</navigation>
+	<article>
+		<heading>Preámbulo de la Carta de Derechos</heading>
+		<section>
+			<paragraph>El Congreso de los Estados Unidos iniciado y concluido en la Ciudad de Nueva York, el miércoles cuatro de marzo, del año mil setecientos ochenta y nueve.</paragraph>
+			<paragraph>Las Convenciones de un número de Estados, habiendo en el momento de adoptar la Constitución, expresado el deseo, con el fin de prevenir el abuso o malinterpretación de sus poderes, de que cláusulas adicionales declaratorias y restrictivas deberían ser añadidas: Y al extender el ámbito de confianza pública hacia el Gobierno, es la mejor forma de asegurar el fin benéfico de su institución.</paragraph>
+			<paragraph>Resuelto por el Senado y la Cámara de Representantes de los Estados Unidos, reunidos como Congreso, concurriendo con dos tercios de ambas cámaras, que los siguientes artículos sean propuestos a las asambleas legislativas de los distintos estados, como enmiendas a la Constitución de los Estados Unidos, con todos, o algunos de estos artículos, cuando sean ratificados por tres cuartos de dichas asambleas legislativas, sean válidos para todos los fines y propósitos, como parte de la Constitución; viz.</paragraph>
+			<paragraph>Los Artículo añadidos, y enmiendas a la Constitución de los Estados Unidos de América, propuestos por el Congreso, y ratificados por las asambleas legislativas de varios estados, de acuerdo con lo dispuesto en el quinto artículo de la Constitución original.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda I</heading>
+		<section>
+			<paragraph>El Congreso no aprobará ley alguna por la que adopte una religión oficial del estado o prohíba el libre ejercicio de la misma, o que restrinja la libertad de expresión o de prensa, o el derecho del pueblo a reunirse pacíficamente y a pedir al gobierno la reparación de agravios.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda II</heading>
+		<section>
+			<paragraph>Siendo necesaria una milicia bien ordenada para la seguridad de un estado libre, no se violará el derecho del pueblo a poseer y portar armas.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda III</heading>
+		<section>
+			<paragraph>En tiempo de paz no se alojará a ningún soldado en casa alguna sin el consentimiento del propietario; ni en tiempo de guerra, excepto en la forma prescrita por ley.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda IV</heading>
+		<section>
+			<paragraph>El derecho del pueblo a que sus personas, domicilios, papeles y efectos se encuentren protegidos contra registros e incautaciones irrazonables, será inviolable, y no se expedirán al efecto órdenes que no se apoyen en un motivo verosímil, estén corroborados mediante juramento o afirmación y describan con particularidad el lugar que deba ser registrado y las personas o cosas que han de ser incautadas.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda V</heading>
+		<section>
+			<paragraph>Nadie estará obligado a responder de un delito castigado con la pena capital o de otro delito infame a menos que un gran jurado lo acuse, a excepción de los casos que se presenten en las fuerzas navales o terrestres, o en la milicia nacional cuando se encuentre en servicio actual en tiempo de guerra o peligro público; tampoco se juzgará a persona alguna dos veces con motivo del mismo delito, el cual conlleve la pérdida de la vida o algún miembro; ni se le compelerá a declarar contra sí misma en ningún juicio criminal; ni se le privará de la vida, la libertad o la propiedad sin el debido proceso legal; ni se tomará propiedad privada para uso público sin una justa indemnización.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda VI</heading>
+		<section>
+			<paragraph>En toda causa criminal, el acusado gozará del derecho de ser juzgado rápidamente y en público por un jurado imparcial del distrito y estado en que el delito se haya cometido, Distrito que deberá haber sido determinado previamente por ley; así como de que se le haga saber la naturaleza y causa de la acusación, de que se caree con los testigos en su contra, de que se obligue a comparecer a los testigos que le favorezcan y de contar con la ayuda de un abogado que le defienda.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda VII</heading>
+		<section>
+			<paragraph>El derecho a que se celebren ante un jurado los juicios de derecho consuetudinario en que el valor en disputa exceda de veinte dólares, será garantizado, y ningún hecho juzgado por un jurado será reexaminado en tribunal alguno de los Estados Unidos, salvo con arreglo a las normas del derecho consuetudinario.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda VIII</heading>
+		<section>
+			<paragraph>No se exigirán fianzas excesivas, ni se impondrán multas excesivas, ni se infligirán penas crueles e inusuales.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda IX</heading>
+		<section>
+			<paragraph>No se interpretará la enumeración en la Constitución de ciertos derechos para negar o menospreciar otros derechos retenidos por el pueblo.</paragraph>
+		</section>
+	</article>
+	<article>
+		<heading>Enmienda X</heading>
+		<section>
+			<paragraph>Los poderes que la Constitución no delega a los Estados Unidos ni prohíbe a los Estados, quedan reservados a los estados respectivamente o al pueblo.</paragraph>
+		</section>
+	</article>
+	<copyright>
+		<paragraph>Los contenidos de esta página encuentra en dominio público.</paragraph>
+		<paragraph>Los XML y XSLT asociados son ©2020 Benjamin Herman, para uso bajo la <link href="license.txt" lang="en">licencia MIT</link> (disponible en inglés solamente).</paragraph>
+	</copyright>
+</document>
