@@ -1,104 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-	<!-- Document division -->
-	<xs:complexType name="division">
-		<xs:sequence>
-			<xs:element name="heading" type="xs:string" minOccurs="0"/>
-		</xs:sequence>
-	</xs:complexType>
-
-	<!-- Document -->
-	<xs:element name="document">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="heading" type="xs:string"/>
-				<xs:element ref="navigation" minOccurs="0"/>
-				<xs:element ref="article" maxOccurs="unbounded"/>
-				<xs:element ref="eschatocol" minOccurs="0"/>
-				<xs:element ref="copyright"/>
-			</xs:sequence>
-			<xs:attribute name="lang" type="xs:language"/>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Navigation -->
-	<xs:element name="navigation">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="link" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Link -->
-	<xs:element name="link">
-		<xs:complexType>
-			<xs:simpleContent>
-				<xs:extension base="xs:string">
-					<xs:attribute name="href" type="xs:anyURI"/>
-					<xs:attribute name="lang" type="xs:language"/>
-				</xs:extension>
-			</xs:simpleContent>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Article -->
-	<xs:element name="article">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="heading" type="xs:string" minOccurs="0"/>
-				<xs:element ref="section" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Section -->
-	<xs:element name="section">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="heading" type="xs:string" minOccurs="0"/>
-				<xs:element ref="paragraph" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Eschatocol -->
-	<xs:element name="eschatocol">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="heading" type="xs:string" minOccurs="0"/>
-				<xs:element ref="section" maxOccurs="unbounded"/>
-				<xs:element ref="party" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Party -->
-	<xs:element name="party">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="name" minOccurs="0" type="xs:string"/>
-				<xs:element name="member" type="xs:string" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Copyright -->
-	<xs:element name="copyright">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="paragraph" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<!-- Paragraph -->
-	<xs:element name="paragraph">
-		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="link" maxOccurs="unbounded"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-</xs:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="document">
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="content">
+					<xsd:sequence>
+						<xsd:element ref="party" minOccurs="0" maxOccurs="unbounded"/>
+						<xsd:element name="seealso" type="seealso" minOccurs="0"/>
+						<xsd:element ref="copyright" minOccurs="0"/>
+					</xsd:sequence>
+					<xsd:attribute name="lang" type="xsd:language"/>
+				</xsd:extension>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="party">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="signatory" type="xsd:string" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="name" type="xsd:token"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="see-also">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="link" type="reference" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="copyright">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="paragraph" type="text"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="content">
+		<xsd:choice maxOccurs="unbounded">
+			<xsd:element name="paragraph" type="text"/>
+			<xsd:element name="section" type="content"/>
+			<xsd:element name="note" type="content"/>
+		</xsd:choice>
+		<xsd:attribute name="heading" type="xsd:token"/>
+	</xsd:complexType>
+	<xsd:complexType name="text" mixed="true">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="strong" type="xsd:string"/>
+			<xsd:element name="link" type="reference"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="reference">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="href" type="xsd:anyURI"/>
+				<xsd:attribute name="lang" type="xsd:language"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+</xsd:schema>

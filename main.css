@@ -28,17 +28,23 @@ body > main {
 	max-width: 60rem;
 }
 
+body > main > footer {
+	margin-top: 2.8rem;
+	padding-top: 2rem;
+	border-top: 1px solid black;
+}
+
 h1 {
 	margin: 1.8rem 0 1.4rem;
 	border-bottom: 1px solid black;
 }
 
 h2 {
-	margin: 1.2rem 0 0.8rem;
+	margin: 2.8rem 0 0.4rem;
 }
 
 h3 {
-	margin: 1rem 0 0.6rem;
+	margin: 1rem 0 0.4rem;
 }
 
 p {
@@ -52,12 +58,13 @@ a {
 	color: dodgerblue;
 }
 
-hr {
-	margin: 1.2rem 0;
-}
-
 a:hover {
 	text-decoration: underline;
+}
+
+strong {
+	font-weight: normal;
+	font-variant: small-caps;
 }
 
 h2 .fragment-hyperlink, h3 .fragment-hyperlink {
@@ -73,28 +80,40 @@ h2:hover .fragment-hyperlink, h3:hover .fragment-hyperlink {
 
 .fragment-anchor {
 	visibility: hidden;
+	position: relative;
+	top: -2rem;
 }
 
-.signatures {
-	margin: 1.2rem;
+div.note {
+	margin: 2.8rem 0;
+	font-size: 90%;
+	border: 1px solid black;
+	padding: 1rem;
+}
+
+#signatures {
+	margin: 2.8rem 0;
 	columns: 3;
 }
 
 @media (max-width: 45rem) {
-	.signatures {
+	#signatures {
 		columns: 2;
 	}
 }
 
 @media (max-width: 30rem) {
-	.signatures {
+	#signatures {
 		columns: 1;
 	}
 }
 
 div.party {
-	break-inside: avoid;
 	margin-bottom: 1rem;
+}
+
+div.party.named {
+	break-inside: avoid;
 }
 
 div.party-name {
@@ -103,6 +122,6 @@ div.party-name {
 	margin-bottom: 0.4rem;
 }
 
-div.party-member {
+div.party-name ~ div.signatory {
 	margin-left: 1ch;
 }

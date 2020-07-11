@@ -3,154 +3,133 @@
 <document
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="document.xsd"
+	heading="Declaración de Independencia"
 	lang="es">
-	<heading>Declaración de Independencia</heading>
-	<navigation>
+	<section>
+		<paragraph>En el Congreso, 4 de julio de 1776.</paragraph>
+		<paragraph>La declaración unánime de los trece Estados Unidos de América, Cuando en el curso de los acontecimientos humanos se hace necesario para un pueblo disolver los vínculos políticos que lo han ligado a otro y tomar entre las naciones de la tierra el puesto separado e igual a que las leyes de la naturaleza y el Dios de esa naturaleza le dan derecho, un justo respeto al juicio de la humanidad exige que declare las causas que lo impulsan a la separación.</paragraph>
+		<paragraph>Sostenemos como evidentes estas verdades: que todos los hombres son creados iguales; que son dotados por su Creador de ciertos derechos inalienables; que entre éstos están la vida, la libertad y la búsqueda de la felicidad; que para gara ntizar estos derechos se instituyen entre los hombres los gobiernos, que derivan sus poderes legítimos del consentimiento de los gobernados; que cuando quiera que una forma de gobierno se haga destructora de estos principios, el pueblo tiene el derec ho a reformarla o abolirla e instituir un nuevo gobierno que se funde en dichos principios, y a organizar sus poderes en la forma que a su juicio ofrecerá las mayores probabilidades de alcanzar su seguridad y felicidad. La prudencia, claro está, aconsejará que no se cambie por motivos leves y transitorios gobiernos de antiguo establecidos; y, en efecto, toda la experiencia ha demostrado que la humanidad está más dispuesta a padecer, mientras los males sean tolerables, que a hacers e justicia aboliendo las formas a que está acostumbrada. Pero cuando una larga serie de abusos y usurpaciones, dirigida invariablemente al mismo objetivo, demuestra el designio de someter al pueblo a un despotismo absoluto, es su derecho, es su deber , derrocar ese gobierno y establecer nuevos resguardos para su futura seguridad. Tal ha sido el paciente sufrimiento de estas colonias; tal es ahora la necesidad que las obliga a reformar su anterior sistema de gobierno La historia del actual Rey de la Gr an Bretaña es una historia de repetidos agravios y usurpaciones, encaminados todos directamente hacia el establecimiento de una tiranía absoluta sobre estos estados. Para probar esto, sometemos los hechos al juicio de un mundo imparcial.</paragraph>
+		<paragraph>El Rey se ha negado a aprobar las leyes más favorables y necesarias para el bienestar público.</paragraph>
+		<paragraph>Ha prohibido a sus gobernadores sancionar leyes de importancia inmediata y apremiante, a menos que su ejecución se suspenda hasta obtener su asentimiento; y una vez suspendidas se ha negado por completo a prestarles atención.</paragraph>
+		<paragraph>Se ha rehusado a aprobar otras leyes convenientes a grandes comarcas pobladas, a menos que esos pueblos renuncien al derecho de ser representados en la Legislatura; derecho que es inestimable para el pueblo y terrible sí, para los tiranos.</paragraph>
+		<paragraph>Ha convocado a los cuerpos legislativos en sitios desusados, incómodos y distantes del asiento de sus documentos públicos, con la sola idea de fatigarlos para cumplir con sus medidas.</paragraph>
+		<paragraph>En repetidas ocasiones ha disuelto las Cámaras de Representantes, por oponerse con firmeza viril a sus intromisiones en los derechos del pueblo.</paragraph>
+		<paragraph>Durante mucho tiempo, y después de esas disoluciones, se ha negado a permitir la elección de otras Cámaras; por lo cual, los poderes legislativos, cuyo aniquilamiento es imposible, han retornado al pueblo, sin limitación para su ejercicio; permaneciendo el Estado, mientras tanto, expuesto a todos los peligros de una invasión exterior y a convulsiones internas.</paragraph>
+		<paragraph>Ha tratado de impedir que se pueblen estos Estados, dificultando, con ese propósito, las Leyes de Naturalización de Extranjeros; rehusando aprobar otras para fomentar su inmigración y elevando las condiciones para las Nuevas Adquisiciones de Tierras.</paragraph>
+		<paragraph>Ha entorpecido la administración de justicia al no aprobar las leyes que establecen los poderes judiciales.</paragraph>
+		<paragraph>Ha hecho que los jueces dependan solamente de su voluntad, para poder desempeñar sus cargos y en cuanto a la cantidad y pago de sus emolumentos.</paragraph>
+		<paragraph>Ha fundado una gran diversidad de oficinas nuevas, enviando a un enjambre de funcionarios que acosan a nuestro pueblo y menguan su sustento.</paragraph>
+		<paragraph>En tiempos de paz, ha mantenido entre nosotros ejércitos permanentes, sin el consentimiento de nuestras legislaturas.</paragraph>
+		<paragraph>Ha influido para que la autoridad militar sea independiente de la civil y superior a ella.</paragraph>
+		<paragraph>Se ha asociado con otros para someternos a una jurisdicción extraña a nuestra constitución y no reconocida por nuestras leyes; aprobando sus actos de pretendida legislación:</paragraph>
+		<paragraph>Para acuartelar, entre nosotros, grandes cuerpos de tropas armadas.</paragraph>
+		<paragraph>Para protegerlos, por medio de un juicio ficticio, del castigo por los asesinatos que pudiesen cometer entre los habitantes de estos Estados.</paragraph>
+		<paragraph>Para suspender nuestro comercio con todas las partes del mundo.</paragraph>
+		<paragraph>Para imponernos impuestos sin nuestro consentimiento.</paragraph>
+		<paragraph>Para privarnos, en muchos casos, de los beneficios de un juicio por jurado.</paragraph>
+		<paragraph>Para transportarnos más allá de los mares, con el fin de ser juzgados por supuestos agravios.</paragraph>
+		<paragraph>Para abolir en una provincia vecina el libre sistema de las leyes inglesas, estableciendo en ella un gobierno arbitrario y extendiendo sus límites, con el objeto de dar un ejemplo y disponer de un instrumento adecuado para introducir el mismo gobierno absoluto en estas Colonias.</paragraph>
+		<paragraph>Para suprimir nuestras Cartas Constitutivas, abolir nuestras leyes más valiosas y alterar en su esencia las formas de nuestros gobiernos.</paragraph>
+		<paragraph>Para suspender nuestras propias legislaturas y declararse investido con facultades para legislarnos en todos los casos, cualesquiera que éstos sean.</paragraph>
+		<paragraph>Ha abdicado de su gobierno en estos territorios al declarar que estamos fuera de su protección y al emprender una guerra contra nosotros.</paragraph>
+		<paragraph>Ha saqueado nuestros mares, asolado nuestras costas, incendiado nuestras ciudades y destruido la vida de nuestro pueblo.</paragraph>
+		<paragraph>Al presente, está transportando grandes ejércitos de extranjeros mercenarios para completar la obra de muerte, desolación y tiranía, ya iniciada en circunstancias de crueldad y perfidia que apenas si encuentran paralelo en las épocas más bárbaras, y por completo indignas del Jefe de una Nación civilizada.</paragraph>
+		<paragraph>Ha obligado a nuestros conciudadanos, aprehendidos en alta mar, a que tomen armas contra su país, convirtiéndolos así en los verdugos de sus amigos y hermanos, o a morir bajo sus manos.</paragraph>
+		<paragraph>Ha provocado insurrecciones intestinas entre nosotros y se ha esforzado por lanzar sobre los habitantes de nuestras fronteras a los inmisericordes indios salvajes, cuya conocida disposición para la guerra se distingue por la destrucción de vidas, sin considerar edades, sexos ni condiciones.</paragraph>
+		<paragraph>En cada etapa de estas opresiones, hemos pedido justicia en los términos más humildes: a nuestras repetidas peticiones se ha contestado solamente con repetidos agravios. Un Príncipe, cuyo caracter está así señalado con cada uno de los actos que pueden definir a un tirano, no es digno de ser el gobernante de un pueblo libre.</paragraph>
+		<paragraph>Tampoco hemos dejado de dirigirnos a nuestros hermanos británicos. Los hemos prevenido de tiempo en tiempo de las tentativas de su poder legislativo para englobarnos en una jurisdicción injustificable. Les hemos recordado las circunstancias d e nuestra emigración y radicación aquí. Hemos apelado a su innato sentido de justicia y magnanimidad, y los hemos conjurado, por los vínculos de nuestro parentesco, a repudiar esas usurpaciones, las cuales interrumpirían inevitabl emente nuestras relaciones y correspondencia. También ellos han sido sordos a la voz de la justicia y de la consanguinidad. Debemos, pues, convenir en la necesidad, que establece nuestra separación y considerarlos, como consideramos a las dem 25;s colectividades humanas: enemigos en la guerra, en la paz, amigos.</paragraph>
+		<paragraph>Por lo tanto, los Representantes de los Estados Unidos de América, convocados en Congreso General, apelando al Juez Supremo del mundo por la rectitud de nuestras intenciones, en nombre y por la autoridad del buen pueblo de estas Colonias, solemnem ente hacemos público y declaramos: Que estas Colonias Unidas son, y deben serIo por derecho, Estados Libres e Independientes; que quedan libres de toda lealtad a la Corona Británica, y que toda vinculación política entre ellas y el Est ado de la Gran Bretaña queda y debe quedar totalmente disuelta; y que, como Estados Libres o Independientes, tienen pleno poder para hacer la guerra, concertar la paz, concertar alianzas, establecer el comercio y efectuar los actos y providencias a q ue tienen derecho los Estados independientes.</paragraph>
+		<paragraph>Y en apoyo de esta Declaración, con absoluta confianza en la protección de la Divina Providencia, empeñamos nuestra vida, nuestra hacienda y nuestro sagrado honor.</paragraph>
+	</section>
+	<party name="Georgia">
+		<signatory>Button Gwinnett</signatory>
+		<signatory>Lyman Hall</signatory>
+		<signatory>George Walton</signatory>
+	</party>
+	<party name="Carolina del Norte">
+		<signatory>William Hooper</signatory>
+		<signatory>Joseph Hewes</signatory>
+		<signatory>John Penn</signatory>
+	</party>
+	<party name="Carolina del Sur">
+		<signatory>Edward Rutledge</signatory>
+		<signatory>Thomas Heyward, Jr.</signatory>
+		<signatory>Thomas Lynch, Jr.</signatory>
+		<signatory>Arthur Middleton</signatory>
+	</party>
+	<party name="Massachusetts">
+		<signatory>John Hancock</signatory>
+	</party>
+	<party name="Maryland">
+		<signatory>Samuel Chase</signatory>
+		<signatory>William Paca</signatory>
+		<signatory>Thomas Stone</signatory>
+		<signatory>Charles Carroll of Carrollton</signatory>
+	</party>
+	<party name="Virginia">
+		<signatory>George Wythe</signatory>
+		<signatory>Richard Henry Lee</signatory>
+		<signatory>Thomas Jefferson</signatory>
+		<signatory>Benjamin Harrison</signatory>
+		<signatory>Thomas Nelson, Jr.</signatory>
+		<signatory>Francis Lightfoot Lee</signatory>
+		<signatory>Carter Braxton</signatory>
+	</party>
+	<party name="Pensilvania">
+		<signatory>Robert Morris</signatory>
+		<signatory>Benjamin Rush</signatory>
+		<signatory>Benjamin Franklin</signatory>
+		<signatory>John Morton</signatory>
+		<signatory>George Clymer</signatory>
+		<signatory>James Smith</signatory>
+		<signatory>George Taylor</signatory>
+		<signatory>James Wilson</signatory>
+		<signatory>George Ross</signatory>
+	</party>
+	<party name="Delaware">
+		<signatory>Caesar Rodney</signatory>
+		<signatory>George Read</signatory>
+		<signatory>Thomas McKean</signatory>
+	</party>
+	<party name="Nueva York">
+		<signatory>William Floyd</signatory>
+		<signatory>Philip Livingston</signatory>
+		<signatory>Francis Lewis</signatory>
+		<signatory>Lewis Morris</signatory>
+	</party>
+	<party name="Nueva Jersey">
+		<signatory>Richard Stockton</signatory>
+		<signatory>John Witherspoon</signatory>
+		<signatory>Francis Hopkinson</signatory>
+		<signatory>John Hart</signatory>
+		<signatory>Abraham Clark</signatory>
+	</party>
+	<party name="Nuevo Hampshire">
+		<signatory>Josiah Bartlett</signatory>
+		<signatory>William Whipple</signatory>
+		<signatory>Matthew Thornton</signatory>
+	</party>
+	<party name="Massachusetts">
+		<signatory>Samuel Adams</signatory>
+		<signatory>John Adams</signatory>
+		<signatory>Robert Treat Paine</signatory>
+		<signatory>Elbridge Gerry</signatory>
+	</party>
+	<party name="Rhode Island">
+		<signatory>Stephen Hopkins</signatory>
+		<signatory>William Ellery</signatory>
+	</party>
+	<party name="Connecticut">
+		<signatory>Roger Sherman</signatory>
+		<signatory>Samuel Huntington</signatory>
+		<signatory>William Williams</signatory>
+		<signatory>Oliver Wolcott</signatory>
+	</party>
+	<see-also>
 		<link href="document.xsd">Schema</link>
 		<link href="index.html">Index</link>
 		<link href="declaration.xml" lang="en">English</link>
-	</navigation>
-	<article>
-		<section>
-			<paragraph>En el Congreso, 4 de julio de 1776.</paragraph>
-			<paragraph>La declaración unánime de los trece Estados Unidos de América, Cuando en el curso de los acontecimientos humanos se hace necesario para un pueblo disolver los vínculos políticos que lo han ligado a otro y tomar entre las naciones de la tierra el puesto separado e igual a que las leyes de la naturaleza y el Dios de esa naturaleza le dan derecho, un justo respeto al juicio de la humanidad exige que declare las causas que lo impulsan a la separación.</paragraph>
-			<paragraph>Sostenemos como evidentes estas verdades: que todos los hombres son creados iguales; que son dotados por su Creador de ciertos derechos inalienables; que entre éstos están la vida, la libertad y la búsqueda de la felicidad; que para gara ntizar estos derechos se instituyen entre los hombres los gobiernos, que derivan sus poderes legítimos del consentimiento de los gobernados; que cuando quiera que una forma de gobierno se haga destructora de estos principios, el pueblo tiene el derec ho a reformarla o abolirla e instituir un nuevo gobierno que se funde en dichos principios, y a organizar sus poderes en la forma que a su juicio ofrecerá las mayores probabilidades de alcanzar su seguridad y felicidad. La prudencia, claro está, aconsejará que no se cambie por motivos leves y transitorios gobiernos de antiguo establecidos; y, en efecto, toda la experiencia ha demostrado que la humanidad está más dispuesta a padecer, mientras los males sean tolerables, que a hacers e justicia aboliendo las formas a que está acostumbrada. Pero cuando una larga serie de abusos y usurpaciones, dirigida invariablemente al mismo objetivo, demuestra el designio de someter al pueblo a un despotismo absoluto, es su derecho, es su deber , derrocar ese gobierno y establecer nuevos resguardos para su futura seguridad. Tal ha sido el paciente sufrimiento de estas colonias; tal es ahora la necesidad que las obliga a reformar su anterior sistema de gobierno La historia del actual Rey de la Gr an Bretaña es una historia de repetidos agravios y usurpaciones, encaminados todos directamente hacia el establecimiento de una tiranía absoluta sobre estos estados. Para probar esto, sometemos los hechos al juicio de un mundo imparcial.</paragraph>
-			<paragraph>El Rey se ha negado a aprobar las leyes más favorables y necesarias para el bienestar público.</paragraph>
-			<paragraph>Ha prohibido a sus gobernadores sancionar leyes de importancia inmediata y apremiante, a menos que su ejecución se suspenda hasta obtener su asentimiento; y una vez suspendidas se ha negado por completo a prestarles atención.</paragraph>
-			<paragraph>Se ha rehusado a aprobar otras leyes convenientes a grandes comarcas pobladas, a menos que esos pueblos renuncien al derecho de ser representados en la Legislatura; derecho que es inestimable para el pueblo y terrible sí, para los tiranos.</paragraph>
-			<paragraph>Ha convocado a los cuerpos legislativos en sitios desusados, incómodos y distantes del asiento de sus documentos públicos, con la sola idea de fatigarlos para cumplir con sus medidas.</paragraph>
-			<paragraph>En repetidas ocasiones ha disuelto las Cámaras de Representantes, por oponerse con firmeza viril a sus intromisiones en los derechos del pueblo.</paragraph>
-			<paragraph>Durante mucho tiempo, y después de esas disoluciones, se ha negado a permitir la elección de otras Cámaras; por lo cual, los poderes legislativos, cuyo aniquilamiento es imposible, han retornado al pueblo, sin limitación para su ejercicio; permaneciendo el Estado, mientras tanto, expuesto a todos los peligros de una invasión exterior y a convulsiones internas.</paragraph>
-			<paragraph>Ha tratado de impedir que se pueblen estos Estados, dificultando, con ese propósito, las Leyes de Naturalización de Extranjeros; rehusando aprobar otras para fomentar su inmigración y elevando las condiciones para las Nuevas Adquisiciones de Tierras.</paragraph>
-			<paragraph>Ha entorpecido la administración de justicia al no aprobar las leyes que establecen los poderes judiciales.</paragraph>
-			<paragraph>Ha hecho que los jueces dependan solamente de su voluntad, para poder desempeñar sus cargos y en cuanto a la cantidad y pago de sus emolumentos.</paragraph>
-			<paragraph>Ha fundado una gran diversidad de oficinas nuevas, enviando a un enjambre de funcionarios que acosan a nuestro pueblo y menguan su sustento.</paragraph>
-			<paragraph>En tiempos de paz, ha mantenido entre nosotros ejércitos permanentes, sin el consentimiento de nuestras legislaturas.</paragraph>
-			<paragraph>Ha influido para que la autoridad militar sea independiente de la civil y superior a ella.</paragraph>
-			<paragraph>Se ha asociado con otros para someternos a una jurisdicción extraña a nuestra constitución y no reconocida por nuestras leyes; aprobando sus actos de pretendida legislación:</paragraph>
-			<paragraph>Para acuartelar, entre nosotros, grandes cuerpos de tropas armadas.</paragraph>
-			<paragraph>Para protegerlos, por medio de un juicio ficticio, del castigo por los asesinatos que pudiesen cometer entre los habitantes de estos Estados.</paragraph>
-			<paragraph>Para suspender nuestro comercio con todas las partes del mundo.</paragraph>
-			<paragraph>Para imponernos impuestos sin nuestro consentimiento.</paragraph>
-			<paragraph>Para privarnos, en muchos casos, de los beneficios de un juicio por jurado.</paragraph>
-			<paragraph>Para transportarnos más allá de los mares, con el fin de ser juzgados por supuestos agravios.</paragraph>
-			<paragraph>Para abolir en una provincia vecina el libre sistema de las leyes inglesas, estableciendo en ella un gobierno arbitrario y extendiendo sus límites, con el objeto de dar un ejemplo y disponer de un instrumento adecuado para introducir el mismo gobierno absoluto en estas Colonias.</paragraph>
-			<paragraph>Para suprimir nuestras Cartas Constitutivas, abolir nuestras leyes más valiosas y alterar en su esencia las formas de nuestros gobiernos.</paragraph>
-			<paragraph>Para suspender nuestras propias legislaturas y declararse investido con facultades para legislarnos en todos los casos, cualesquiera que éstos sean.</paragraph>
-			<paragraph>Ha abdicado de su gobierno en estos territorios al declarar que estamos fuera de su protección y al emprender una guerra contra nosotros.</paragraph>
-			<paragraph>Ha saqueado nuestros mares, asolado nuestras costas, incendiado nuestras ciudades y destruido la vida de nuestro pueblo.</paragraph>
-			<paragraph>Al presente, está transportando grandes ejércitos de extranjeros mercenarios para completar la obra de muerte, desolación y tiranía, ya iniciada en circunstancias de crueldad y perfidia que apenas si encuentran paralelo en las épocas más bárbaras, y por completo indignas del Jefe de una Nación civilizada.</paragraph>
-			<paragraph>Ha obligado a nuestros conciudadanos, aprehendidos en alta mar, a que tomen armas contra su país, convirtiéndolos así en los verdugos de sus amigos y hermanos, o a morir bajo sus manos.</paragraph>
-			<paragraph>Ha provocado insurrecciones intestinas entre nosotros y se ha esforzado por lanzar sobre los habitantes de nuestras fronteras a los inmisericordes indios salvajes, cuya conocida disposición para la guerra se distingue por la destrucción de vidas, sin considerar edades, sexos ni condiciones.</paragraph>
-			<paragraph>En cada etapa de estas opresiones, hemos pedido justicia en los términos más humildes: a nuestras repetidas peticiones se ha contestado solamente con repetidos agravios. Un Príncipe, cuyo caracter está así señalado con cada uno de los actos que pueden definir a un tirano, no es digno de ser el gobernante de un pueblo libre.</paragraph>
-			<paragraph>Tampoco hemos dejado de dirigirnos a nuestros hermanos británicos. Los hemos prevenido de tiempo en tiempo de las tentativas de su poder legislativo para englobarnos en una jurisdicción injustificable. Les hemos recordado las circunstancias d e nuestra emigración y radicación aquí. Hemos apelado a su innato sentido de justicia y magnanimidad, y los hemos conjurado, por los vínculos de nuestro parentesco, a repudiar esas usurpaciones, las cuales interrumpirían inevitabl emente nuestras relaciones y correspondencia. También ellos han sido sordos a la voz de la justicia y de la consanguinidad. Debemos, pues, convenir en la necesidad, que establece nuestra separación y considerarlos, como consideramos a las dem 25;s colectividades humanas: enemigos en la guerra, en la paz, amigos.</paragraph>
-			<paragraph>Por lo tanto, los Representantes de los Estados Unidos de América, convocados en Congreso General, apelando al Juez Supremo del mundo por la rectitud de nuestras intenciones, en nombre y por la autoridad del buen pueblo de estas Colonias, solemnem ente hacemos público y declaramos: Que estas Colonias Unidas son, y deben serIo por derecho, Estados Libres e Independientes; que quedan libres de toda lealtad a la Corona Británica, y que toda vinculación política entre ellas y el Est ado de la Gran Bretaña queda y debe quedar totalmente disuelta; y que, como Estados Libres o Independientes, tienen pleno poder para hacer la guerra, concertar la paz, concertar alianzas, establecer el comercio y efectuar los actos y providencias a q ue tienen derecho los Estados independientes.</paragraph>
-			<paragraph>Y en apoyo de esta Declaración, con absoluta confianza en la protección de la Divina Providencia, empeñamos nuestra vida, nuestra hacienda y nuestro sagrado honor.</paragraph>
-		</section>
-	</article>
-	<eschatocol>
-		<party>
-			<name>Georgia</name>
-			<member>Button Gwinnett</member>
-			<member>Lyman Hall</member>
-			<member>George Walton</member>
-		</party>
-		<party>
-			<name>Carolina del Norte</name>
-			<member>William Hooper</member>
-			<member>Joseph Hewes</member>
-			<member>John Penn</member>
-		</party>
-		<party>
-			<name>Carolina del Sur</name>
-			<member>Edward Rutledge</member>
-			<member>Thomas Heyward, Jr.</member>
-			<member>Thomas Lynch, Jr.</member>
-			<member>Arthur Middleton</member>
-		</party>
-		<party>
-			<name>Massachusetts</name>
-			<member>John Hancock</member>
-		</party>
-		<party>
-			<name>Maryland</name>
-			<member>Samuel Chase</member>
-			<member>William Paca</member>
-			<member>Thomas Stone</member>
-			<member>Charles Carroll of Carrollton</member>
-		</party>
-		<party>
-			<name>Virginia</name>
-			<member>George Wythe</member>
-			<member>Richard Henry Lee</member>
-			<member>Thomas Jefferson</member>
-			<member>Benjamin Harrison</member>
-			<member>Thomas Nelson, Jr.</member>
-			<member>Francis Lightfoot Lee</member>
-			<member>Carter Braxton</member>
-		</party>
-		<party>
-			<name>Pensilvania</name>
-			<member>Robert Morris</member>
-			<member>Benjamin Rush</member>
-			<member>Benjamin Franklin</member>
-			<member>John Morton</member>
-			<member>George Clymer</member>
-			<member>James Smith</member>
-			<member>George Taylor</member>
-			<member>James Wilson</member>
-			<member>George Ross</member>
-		</party>
-		<party>
-			<name>Delaware</name>
-			<member>Caesar Rodney</member>
-			<member>George Read</member>
-			<member>Thomas McKean</member>
-		</party>
-		<party>
-			<name>Nueva York</name>
-			<member>William Floyd</member>
-			<member>Philip Livingston</member>
-			<member>Francis Lewis</member>
-			<member>Lewis Morris</member>
-		</party>
-		<party>
-			<name>Nueva Jersey</name>
-			<member>Richard Stockton</member>
-			<member>John Witherspoon</member>
-			<member>Francis Hopkinson</member>
-			<member>John Hart</member>
-			<member>Abraham Clark</member>
-		</party>
-		<party>
-			<name>Nuevo Hampshire</name>
-			<member>Josiah Bartlett</member>
-			<member>William Whipple</member>
-		</party>
-		<party>
-			<name>Massachusetts</name>
-			<member>Samuel Adams</member>
-			<member>John Adams</member>
-			<member>Robert Treat Paine</member>
-			<member>Elbridge Gerry</member>
-		</party>
-		<party>
-			<name>Rhode Island</name>
-			<member>Stephen Hopkins</member>
-			<member>William Ellery</member>
-		</party>
-		<party>
-			<name>Connecticut</name>
-			<member>Roger Sherman</member>
-			<member>Samuel Huntington</member>
-			<member>William Williams</member>
-			<member>Oliver Wolcott</member>
-		</party>
-		<party>
-			<name>New Hampshire</name>
-			<member>Matthew Thornton</member>
-		</party>
-	</eschatocol>
+	</see-also>
 	<copyright>
 		<paragraph>Los contenidos de esta página encuentra en dominio público.</paragraph>
 		<paragraph>Los XML y XSLT asociados son ©2020 Benjamin Herman, para uso bajo la <link href="license.txt" lang="en">licencia MIT</link> (disponible en inglés solamente).</paragraph>
