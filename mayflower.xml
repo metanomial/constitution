@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="document.xsl"?>
+<document
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="document.xsd"
+	heading="The Mayflower Compact"
+	lang="en">
+	<section>
+		<paragraph><strong>In the name of God, Amen.</strong> We, whose names are underwritten, the Loyal Subjects of our dread Sovereign Lord King James, by the Grace of God, of Great Britain, France, and Ireland, King, Defender of the Faith, &amp;c. Having undertaken for the Glory of God, and Advancement of the Christian Faith, and the Honour of our King and Country, a Voyage to plant the first Colony in the northern Parts of Virginia; Do by these Presents, solemnly and mutually, in the Presence of God and one another, covenant and combine ourselves together into a civil Body Politick, for our better Ordering and Preservation, and Furtherance of the Ends aforesaid: And by Virtue hereof do enact, constitute, and frame, such just and equal Laws, Ordinances, Acts, Constitutions, and Officers, from time to time, as shall be thought most meet and convenient for the general Good of the Colony; unto which we promise all due Submission and Obedience. <strong>In Witness</strong> whereof we have hereunto subscribed our names at Cape-Cod the eleventh of November, in the Reign of our Sovereign Lord King James, of England, France, and Ireland, the eighteenth, and of Scotland the fifty-fourth, Anno Domini; 1620.</paragraph>
+	</section>
+	<signatory>John Carver</signatory>
+	<signatory>William Bradford</signatory>
+	<signatory>Edward Winslow</signatory>
+	<signatory>William Brewster</signatory>
+	<signatory>Isaac Allerton</signatory>
+	<signatory>Captain Myles Standish</signatory>
+	<signatory>John Alden</signatory>
+	<signatory>Samuel Fuller</signatory>
+	<signatory>Christopher Martin</signatory>
+	<signatory>William Mullins</signatory>
+	<signatory>William White</signatory>
+	<signatory>Richard Warren</signatory>
+	<signatory>John Howland</signatory>
+	<signatory>Stephen Hopkins</signatory>
+	<signatory>Edward Tilley</signatory>
+	<signatory>John Tilley</signatory>
+	<signatory>Francis Cooke</signatory>
+	<signatory>Thomas Rogers</signatory>
+	<signatory>Thomas Tinker</signatory>
+	<signatory>John Rigsdale</signatory>
+	<signatory>Edward Fuller</signatory>
+	<signatory>John Turner</signatory>
+	<signatory>Francis Eaton</signatory>
+	<signatory>James Chilton</signatory>
+	<signatory>John Crackstone</signatory>
+	<signatory>John Billington</signatory>
+	<signatory>Moses Fletcher</signatory>
+	<signatory>John Goodman</signatory>
+	<signatory>Degory Priest</signatory>
+	<signatory>Thomas Williams</signatory>
+	<signatory>Gilbert Winslow</signatory>
+	<signatory>Edmund Margeson</signatory>
+	<signatory>Peter Browne</signatory>
+	<signatory>Richard Britteridge</signatory>
+	<signatory>George Soule</signatory>
+	<signatory>Richard Clarke</signatory>
+	<signatory>Richard Gardiner</signatory>
+	<signatory>John Allerton</signatory>
+	<signatory>Thomas English</signatory>
+	<signatory>Edward Doty</signatory>
+	<signatory>Edward Leister</signatory>
+	<see-also>
+		<link href="index.html">Index</link>
+		<link href="document.xsd">Schema</link>
+		<link href="mayflower-es.xml" lang="es">Español</link>
+	</see-also>
+	<copyright>
+		<paragraph>The contents of this page are public domain.</paragraph>
+		<paragraph>The associated XML and XSLT are ©2020 Benjamin Herman, for use under the <link href="license.txt">MIT License</link>.</paragraph>
+	</copyright>
+</document>
