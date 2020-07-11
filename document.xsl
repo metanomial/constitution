@@ -34,10 +34,10 @@
 						<xsl:value-of select="@heading"/>
 					</xsl:element>
 					<xsl:apply-templates select="section|note|paragraph"/>
-					<xsl:if test="party">
+					<xsl:if test="signatory|party">
 						<xsl:element name="div">
 							<xsl:attribute name="id">signatures</xsl:attribute>
-							<xsl:apply-templates select="party"/>
+							<xsl:apply-templates select="signatory|party"/>
 						</xsl:element>
 					</xsl:if>
 					<xsl:apply-templates select="copyright"/>
@@ -151,14 +151,7 @@
 	</xsl:template>
 	<xsl:template match="party">
 		<xsl:element name="div">
-			<xsl:choose>
-				<xsl:when test="@name">
-					<xsl:attribute name="class">named party</xsl:attribute>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:attribute name="class">party</xsl:attribute>
-				</xsl:otherwise>
-			</xsl:choose>
+			<xsl:attribute name="class">party</xsl:attribute>
 			<xsl:apply-templates select="@name"/>
 			<xsl:apply-templates select="signatory"/>
 		</xsl:element>

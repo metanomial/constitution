@@ -5,7 +5,10 @@
 			<xsd:complexContent>
 				<xsd:extension base="content">
 					<xsd:sequence>
-						<xsd:element ref="party" minOccurs="0" maxOccurs="unbounded"/>
+						<xsd:choice minOccurs="0" maxOccurs="unbounded">
+							<xsd:element name="signatory" type="xsd:string"/>
+							<xsd:element ref="party"/>
+						</xsd:choice>
 						<xsd:element name="seealso" type="seealso" minOccurs="0"/>
 						<xsd:element ref="copyright" minOccurs="0"/>
 					</xsd:sequence>

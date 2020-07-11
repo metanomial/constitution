@@ -110,18 +110,15 @@ div.note {
 
 div.party {
 	margin-bottom: 1rem;
-}
-
-div.party.named {
 	break-inside: avoid;
 }
 
 div.party-name {
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: 0.4rem;
+	margin-bottom: 0.2rem;
 }
 
-div.party-name ~ div.signatory {
+div.party > div.signatory {
 	margin-left: 1ch;
 }
