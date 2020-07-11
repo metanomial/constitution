@@ -122,3 +122,31 @@ div.party-name {
 div.party > div.signatory {
 	margin-left: 1ch;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: darkslategray;
+		color: ghostwhite;
+	}
+
+	body > nav {
+		background-color: #2A4141;
+		border-color: #233434;
+	}
+
+	body > main > footer {
+		border-color: ghostwhite;
+	}
+
+	h1 {
+		border-color: ghostwhite;
+	}
+
+	a {
+		color: deepskyblue;
+	}
+
+	div.note {
+		border-color: ghostwhite;
+	}
+}
