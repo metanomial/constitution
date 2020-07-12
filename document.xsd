@@ -9,7 +9,7 @@
 							<xsd:element name="signatory" type="xsd:string"/>
 							<xsd:element ref="party"/>
 						</xsd:choice>
-						<xsd:element name="seealso" type="seealso" minOccurs="0"/>
+						<xsd:element ref="see-also" minOccurs="0"/>
 						<xsd:element ref="copyright" minOccurs="0"/>
 					</xsd:sequence>
 					<xsd:attribute name="lang" type="xsd:language"/>
@@ -22,7 +22,7 @@
 			<xsd:sequence>
 				<xsd:element name="signatory" type="xsd:string" maxOccurs="unbounded"/>
 			</xsd:sequence>
-			<xsd:attribute name="name" type="xsd:token"/>
+			<xsd:attribute name="name" type="xsd:token" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
 	<xsd:element name="see-also">
@@ -43,9 +43,14 @@
 		<xsd:choice maxOccurs="unbounded">
 			<xsd:element name="paragraph" type="text"/>
 			<xsd:element name="section" type="content"/>
-			<xsd:element name="note" type="content"/>
+			<xsd:element name="note" type="division"/>
 		</xsd:choice>
-		<xsd:attribute name="heading" type="xsd:token"/>
+		<xsd:attribute name="heading" type="xsd:token" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="division">
+		<xsd:choice maxOccurs="unbounded">
+			<xsd:element name="paragraph" type="text"/>
+		</xsd:choice>
 	</xsd:complexType>
 	<xsd:complexType name="text" mixed="true">
 		<xsd:choice minOccurs="0" maxOccurs="unbounded">
@@ -56,7 +61,7 @@
 	<xsd:complexType name="reference">
 		<xsd:simpleContent>
 			<xsd:extension base="xsd:string">
-				<xsd:attribute name="href" type="xsd:anyURI"/>
+				<xsd:attribute name="href" type="xsd:anyURI" use="required"/>
 				<xsd:attribute name="lang" type="xsd:language"/>
 			</xsd:extension>
 		</xsd:simpleContent>
